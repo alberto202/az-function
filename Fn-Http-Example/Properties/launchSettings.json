@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Fn_Http_Example": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7249",
+      "launchBrowser": false
+    }
+  }
+}

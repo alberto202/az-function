@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Fn_Storage_Example": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7121",
+      "launchBrowser": false
+    }
+  }
+}

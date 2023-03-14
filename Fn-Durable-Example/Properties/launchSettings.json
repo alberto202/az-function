@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Fn_Durable_Example": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7084",
+      "launchBrowser": false
+    }
+  }
+}

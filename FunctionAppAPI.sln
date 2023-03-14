@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http", "Http", "{5A32DFD8-6C5C-4F67-84B4-11806E5D8F87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{5210258B-F14E-470D-B90F-4D27942AB85B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBus", "ServiceBus", "{FFB97EA5-CF9E-4797-857E-7642A2D2760C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fn-Http-Example", "Fn-Http-Example\Fn-Http-Example.csproj", "{0F1AB572-E4CC-4F32-B355-F1BC051A8BD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fn-ServiceBus-Example", "Fn-ServiceBus-Example\Fn-ServiceBus-Example.csproj", "{29ADEC2C-31E4-47E8-A773-68EAAE867633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fn-Storage-Example", "Fn-Storage-Example\Fn-Storage-Example.csproj", "{86737FA9-66D6-4C58-A69A-894865773121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Durable", "Durable", "{1C568F7A-D201-4945-A43A-A86DD89DAD61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fn-Durable-Example", "Fn-Durable-Example\Fn-Durable-Example.csproj", "{9B44A3E4-32DD-4E61-8BDD-6D5D29E658C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F1AB572-E4CC-4F32-B355-F1BC051A8BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1AB572-E4CC-4F32-B355-F1BC051A8BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1AB572-E4CC-4F32-B355-F1BC051A8BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1AB572-E4CC-4F32-B355-F1BC051A8BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29ADEC2C-31E4-47E8-A773-68EAAE867633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29ADEC2C-31E4-47E8-A773-68EAAE867633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29ADEC2C-31E4-47E8-A773-68EAAE867633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29ADEC2C-31E4-47E8-A773-68EAAE867633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86737FA9-66D6-4C58-A69A-894865773121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86737FA9-66D6-4C58-A69A-894865773121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86737FA9-66D6-4C58-A69A-894865773121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86737FA9-66D6-4C58-A69A-894865773121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B44A3E4-32DD-4E61-8BDD-6D5D29E658C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B44A3E4-32DD-4E61-8BDD-6D5D29E658C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B44A3E4-32DD-4E61-8BDD-6D5D29E658C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B44A3E4-32DD-4E61-8BDD-6D5D29E658C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F1AB572-E4CC-4F32-B355-F1BC051A8BD0} = {5A32DFD8-6C5C-4F67-84B4-11806E5D8F87}
+		{29ADEC2C-31E4-47E8-A773-68EAAE867633} = {FFB97EA5-CF9E-4797-857E-7642A2D2760C}
+		{86737FA9-66D6-4C58-A69A-894865773121} = {5210258B-F14E-470D-B90F-4D27942AB85B}
+		{9B44A3E4-32DD-4E61-8BDD-6D5D29E658C2} = {1C568F7A-D201-4945-A43A-A86DD89DAD61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A09C1A97-FE2B-40A8-A6A7-0218840F8476}
+	EndGlobalSection
+EndGlobal
