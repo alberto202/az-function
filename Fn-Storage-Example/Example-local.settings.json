@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ConnectionStringStorage": "CONNECTION_STRING_STORAGE",
+    "FACE_SUBSCRIPTION_KEY": "FACE_API_KEY",
+    "FACE_SUBSCRIPTION_ENDPOINT": "FACE_API_ENDPOINT"
+  }
+}

@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Fn_Durable_Example
 {
-    public static class Function1
+    public static class FunctionDurable
     {
-        [FunctionName("Function1")]
+        [FunctionName("FunctionDurable")]
         public static async Task<List<string>> RunOrchestrator(
             [OrchestrationTrigger] IDurableOrchestrationContext context)
         {
